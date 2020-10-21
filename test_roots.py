@@ -22,3 +22,6 @@ def test_linearroots_types():
 def test_linearroots_zerocoeff():
     with pytest.raises(ValueError):
         roots.linear_roots(a=0.0)
+
+def null_test():
+    assert (True == True)
